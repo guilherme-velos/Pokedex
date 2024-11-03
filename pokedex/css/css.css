@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+*{
+    margin: 0%;
+    padding: 0 ;
+    box-sizing: border-box;
+    
+}
+body {
+    text-align: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+    }
+main {
+    display: inline-block;
+    margin-top: 10%;
+    padding: 15px;
+    position: relative;
+    }
+.pokedex {
+    width: 100%;
+    max-width: 1500px;
+    }
+.pokemon__image {
+    position: absolute;
+    left: 0;
+    bottom: 43%;
+    left: 20%;
+    }
+.pokemon_data {
+    position: absolute;
+    font-weight: 600;
+    color: #ffffff;
+    top: 38%;
+    left: 67.5%;
+    }
+.pokemon_name {
+    color: #ececec;
+    text-transform: capitalize;
+    }
+.form {
+    position: absolute;
+    width: 12%;
+    top: 80.5%;
+    right: 73.3%; 
+    }
+.input_search {
+    padding: 24px; 
+    width: 159px;
+    background-color: #444;
+    outline: none;
+    border: 4px ;
+    border-radius: 3px;
+    font-weight: 400px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+   }
+.buttons {
+    position: absolute;
+    bottom: 15%;
+    left: 60%;
+    display: flex;
+    gap: 28px;
+    bottom: 62px;
+    color: hsl(133, 100%, 13%);
+    }
+
+
+.button {
+    width: 145px;
+    padding: 24px;
+    bottom: 4%;
+    background-color: #444;
+    color: beige;
+    font-weight: 600;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+
+
+}
+
+
+.button:active {
+    box-shadow: inset -4px 4px 0 #444;
+    font-size: 0.9rem;
+  }
+   
+
+    
